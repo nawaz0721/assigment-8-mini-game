@@ -44,3 +44,14 @@ function generateDiceNumber() {
   }
   roundCount++;
 }
+
+function resetGame() {
+  roundCount = 0;
+  winCount = 0;
+  winLoss.innerText = " "; 
+  diceInnerText = "Dice Number";
+  diceInput.value = " "; 
+  diceInput.disabled = false; 
+  roundCountDisplay.innerText = "Round Count: 0"; 
+  winCountDisplay.innerText = "Win Count: 0"; 
+}
