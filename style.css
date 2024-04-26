@@ -1,0 +1,49 @@
+#main{
+    width: 50%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    margin-top: 6%;
+    background-image: radial-gradient(circle, rgba(82, 68, 68, 0), rgb(179, 255, 0));
+}
+
+#dice{
+    color: cornflowerblue;
+}
+
+div fieldset{
+    height: 95%;
+}
+
+div fieldset legend {
+    font: 2em 	Copperplate;
+}
+
+div fieldset input{
+    font-size: larger;
+    margin-top: 30px;
+    background-color: rgba(46, 165, 42, 0.253);
+}
+
+#dice{
+    font-size: xx-large;
+}
+
+#winLoss{
+    font-size: xx-large;
+}
+
+div fieldset button{
+    font-size: x-large;
+    color: black;
+    background-color: rgb(46, 165, 42);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#footer {
+    display: flex; 
+    justify-content: space-between;
+}

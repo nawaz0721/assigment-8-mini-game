@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+       <fieldset>
+        <legend>MINI GAME</legend>
+            <input type="text" id="diceInput" maxlength="1">
+            <h2 id="dice">Dice Number</h2>
+            <h2 id="winLoss">&nbsp;</h2>
+            <button onclick="generateDiceNumber()">
+                Try Your Luck  
+            </button>
+            <div id="footer">
+            <div>
+                <h5 id="roundCount">Round Count: 0</h5>
+            </div>
+            <div>
+                <h5 id="winCount">Win Count: 0</h5>
+            </div> 
+        </div>
+        <h6>Project of: Ahmed Nawaz Gondal</h6>
+      </fieldset>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
